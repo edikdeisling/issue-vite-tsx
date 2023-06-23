@@ -6,7 +6,7 @@ async function init() {
     appType: 'custom',
   });
 
-  await vite.ssrLoadModule('/src/entry-server', { fixStacktrace: true });
+  await vite.ssrLoadModule('/src/entry-server');
 }
 
 init();
