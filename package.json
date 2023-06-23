@@ -1,0 +1,18 @@
+{
+  "name": "issue-vite-tsx",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "tsx index.ts"
+  },
+  "dependencies": {
+    "@types/node": "18.16.3",
+    "@vitejs/plugin-vue": "4.2.3",
+    "@vue/compiler-sfc": "3.3.4",
+    "tsx": "3.12.7",
+    "typescript": "4.9.5",
+    "vite": "4.3.9",
+    "vue": "3.3.4",
+    "vue-tsc": "1.8.1"
+  }
+}
